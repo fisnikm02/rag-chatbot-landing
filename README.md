@@ -2,47 +2,26 @@
 
 Professional landing page for RAG Chatbot WordPress plugin.
 
-## Files
+## Quick Start
 
-- `index.html` - Main HTML file
-- `styles.css` - All styles
-- `script.js` - JavaScript functionality
-- `README.md` - This file
+1. Clone or download this repository
+2. Update the checkout URL in `index.html` (search for `checkout.freemius.com`)
+3. Deploy to GitHub Pages or your hosting provider
 
 ## Deployment to GitHub Pages
 
-### Option 1: Using GitHub Web Interface
-
 1. Create a new repository on GitHub
-2. Upload all files from this folder
-3. Go to repository Settings → Pages
-4. Select source: "Deploy from a branch"
-5. Choose "main" branch and "/ (root)" folder
-6. Click Save
-7. Your site will be live at: `https://yourusername.github.io/repository-name/`
-
-### Option 2: Using Git Command Line
-
-```bash
-cd rag-chatbot-landing
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/yourusername/your-repo-name.git
-git push -u origin main
-```
-
-Then enable GitHub Pages in repository settings.
+2. Upload all files
+3. Go to repository **Settings → Pages**
+4. Select source: **"Deploy from a branch"**
+5. Choose **"main"** branch and **"/ (root)"** folder
+6. Your site will be live at: `https://yourusername.github.io/repository-name/`
 
 ## Customization
 
 ### Update Checkout Link
 
-The checkout link is set to:
-`https://checkout.freemius.com/plugin/22674/plan/38023/`
-
-To change it, search for this URL in `index.html` and replace with your actual checkout URL.
+Search for `https://checkout.freemius.com/plugin/22674/plan/38023/` in `index.html` and replace with your actual checkout URL.
 
 ### Colors
 
@@ -52,7 +31,7 @@ Edit CSS variables in `styles.css`:
 :root {
     --primary: #111827;
     --primary-hover: #1f2937;
-    /* ... other colors ... */
+    /* ... */
 }
 ```
 
@@ -62,23 +41,18 @@ Edit text content directly in `index.html`.
 
 ## Features
 
-- ✅ Fully responsive design
-- ✅ Smooth scrolling navigation
-- ✅ Animated elements on scroll
-- ✅ Modern, professional design
-- ✅ Mobile-friendly
-- ✅ Fast loading
-- ✅ SEO-friendly structure
+- Fully responsive design
+- Smooth scrolling navigation
+- Animated elements on scroll
+- Modern, professional UI
+- Mobile-friendly
+- Fast loading
+- SEO-friendly
 
-## Browser Support
+## Author
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- Mobile browsers
+Created by **Fisnik Murati**
 
-## License
+---
 
-This landing page is for RAG Chatbot plugin promotion.
-
+© 2025 RAG Chatbot. All rights reserved.
